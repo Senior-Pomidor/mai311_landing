@@ -61,3 +61,15 @@ a:hover {
 	color: #0c9bee;
 	border-color: #0c9bee;
 }
+
+.header-section {
+	/* color: #fff; */
+}
+
+.contacts__link:hover {
+	/* color: #0c9bee; */
+}
+
+.contacts__link--colored:hover {
+	/* color: #fff; */
+}
