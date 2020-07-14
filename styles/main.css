@@ -96,8 +96,9 @@ h1 {
 	background: rgba(0,0,0,0.6);;
 }
 
-.header-section__content {
-	/* z-index: 100; */
+.code-logo {
+	max-width: 315px;
+	/* width: 95%; */
 }
 
 .main-title-wrapper {
