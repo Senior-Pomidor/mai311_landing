@@ -144,6 +144,11 @@ h1, h2 {
 	padding: 60px 0; 
 }
 
+.section--dark {
+	color: #fff;
+	background-color: #192226;
+}
+
 .about-us {
 	position: relative;
 	background: url('../assets/img/full_bkrcNHfQ.jpg') center top no-repeat;
@@ -164,6 +169,7 @@ h1, h2 {
 	font-size: 42px;
 	font-weight: 500;
 	text-align: center;
+	text-transform: uppercase;
 	margin-bottom: 70px;
 }
 
@@ -188,4 +194,9 @@ h1, h2 {
 	width: 97%;
 	height: 300px;
 	background: rgba(0,0,0,0.6);
+}
+
+
+.await__img {
+	width: 100%;
 }
