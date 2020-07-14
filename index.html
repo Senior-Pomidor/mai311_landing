@@ -11,14 +11,27 @@
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 500);
+    });
+});
+</script>
+    
 	<link rel="stylesheet" href="styles/main.css">
     
 	<title>Прикладная информатика</title>
 </head>
 
 <body>
-	<header class="main-header">
-		<div class="nav-container">
+	<header id="main" class="main-header">
+		<div id="menu" class="nav-container">
 			<nav class="main-nav">
 				<a href="/" class="header-logo">
 					<img src="assets/img/MAI_logo.svg" alt="МАИ" class="header-logo__img">
@@ -50,7 +63,7 @@
 			</nav>
 		</div>
 
-		<div id="main" class="header-section color-white">
+		<div class="header-section color-white">
 			<div class="header-section__shadow"></div>
 			<div class="container">
 				<div class="row">
