@@ -9,6 +9,7 @@ div[class^="container"] {
 
 body {
 	color: #192226;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 a {
@@ -24,9 +25,13 @@ a.link-white:hover {
 	color: #0c9bee;
 }
 
-h1,
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+}
 h2 {
 	font-size: 35px;
+    font-weight: 700;
 }
 
 .color-white {
