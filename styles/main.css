@@ -310,11 +310,11 @@ h2 {
 
 .new__button {
 	display: inline-block;
-	/*width: 200px;
-	*/padding: 0.5em 2em;
+	padding: 0.5em 2em;
 	color: #0c9bee;
 	font-size: 14px;
 	font-weight: 700;
+	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	border-radius: 30px;
 	background-color: #ffffff;
