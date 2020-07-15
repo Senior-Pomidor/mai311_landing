@@ -5,7 +5,7 @@ $(document).ready(function () {
 		let id = $(this).attr('href'),
 			top = $(id).offset().top;
 		$('body,html').animate({
-			scrollTop: top
+			scrollTop: top - 15
 		}, 500);
 	});
 });

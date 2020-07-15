@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 * {
 	/* border: 1px solid red; */
@@ -11,7 +12,7 @@ div[class^="container"] {
 
 body {
 	color: #192226;
-	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 a {
@@ -92,6 +93,7 @@ h2 {
 }
 
 .nav-list__link {
+	color: #192226;
 	text-transform: uppercase;
 	padding: 12px;
 	border-bottom: 2px solid transparent;
