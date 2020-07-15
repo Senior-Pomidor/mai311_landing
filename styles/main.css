@@ -104,7 +104,8 @@ h2 {
 	-o-transition: .3s border-bottom ease;
 }
 
-.nav-list__link:hover {
+.nav-list__link:hover,
+.nav-list__link.active {
 	color: #0c9bee;
 	border-color: #0c9bee;
 }
