@@ -11,7 +11,7 @@ div[class^="container"] {
 
 body {
 	color: #192226;
-    font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 a {
@@ -45,6 +45,23 @@ h2 {
 .nav-container {
 	display: flex;
 	justify-content: center;
+}
+
+.nav-container--fixed {
+	position: fixed;
+	z-index: 999;
+	background: rgba(255, 255, 255, 0.7);
+	width: 100%;
+}
+
+.nav-scroll-bg {
+	display: none;
+}
+
+.nav-scroll-bg--visible {
+	display: block;
+	width: 100%;
+	background: #fff;
 }
 
 .main-nav {
