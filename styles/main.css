@@ -448,10 +448,10 @@ h2 {
 }
 
 @media(max-width: 850px) {
-	.section {
+	.section:not(.section.new) {
 		padding: 50px 0;
 	}
-	
+
 	.section-title {
 		font-size: 38px;
 	}
