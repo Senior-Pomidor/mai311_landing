@@ -399,3 +399,50 @@ h2 {
 	font-size: 30px;
 	color: #0c9bee;
 }
+
+@media (max-width: 1024px) {
+	* {
+		/* border: 1px solid red; */
+	}
+
+	.header-section {
+		font-size: 16px;
+	}
+
+	.header-logo__img {
+		height: 60px;
+	}
+
+	.nav-list__item {
+		padding: 24px 5px;
+	}
+
+	.nav-list__link {
+		padding: 8px 3px;
+	}
+
+	.about-us .page-p {
+		font-size: 18px;
+	}
+
+	.main-video-wrapper {
+		text-align: center;
+	}
+
+	.main-video {
+		width: 90%;
+		height: 235px;
+	}
+
+	.await__img-wrapper {
+		height: 240px;
+	}
+
+	.await__p {
+		font-size: 16px;
+	}
+
+	.contacts__transport-col {
+		padding: 0 10px;
+	}
+}
