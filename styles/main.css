@@ -446,3 +446,48 @@ h2 {
 		padding: 0 10px;
 	}
 }
+
+@media(max-width: 850px) {
+	.section-title {
+		font-size: 38px;
+	}
+
+	.about-us .page-p,
+	.page-p {
+		font-size: 16px;
+	}
+
+	.main-video {
+		width: 97%;
+		height: 200px;
+	}
+
+	.awaits .col-4:not(:first-child) .awaits__await{
+		margin-top: 1.5em;
+	}
+
+	.await__img-wrapper {
+		height: 340px;
+	}
+
+	.await__title {
+		margin-top: 1em;
+		font-size: 16px;
+	}
+
+	.await__p {
+		margin-top: 1em;
+	}
+
+	.new__register-span {
+		font-size: 18px;
+	}
+
+	.MAI_contacts {
+		min-width: 70%;
+	}
+
+	.contacts-transport-title {
+		margin-top: 2em;
+	}
+}
