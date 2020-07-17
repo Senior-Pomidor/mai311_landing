@@ -31,8 +31,8 @@ $(document).ready(function() {
 		let cur_pos = $(this).scrollTop();
 		
 	  sections.each(function() {
-	    let top = $(this).offset().top - height;
-			let bottom = top + $(this).outerHeight();
+	    let top = $(this).offset().top - height - 1;
+			let bottom = top + $(this).outerHeight() + 1;
 			
 	    if (cur_pos >= top && cur_pos <= bottom) {
 	      nav.find('a').removeClass('active');
