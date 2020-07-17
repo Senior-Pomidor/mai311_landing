@@ -596,6 +596,19 @@ h2 {
 	.nav-list__link {
 		border-bottom: none;
 	}
+
+	.awaits__await-wrapper:not(:first-child) .awaits__await {
+		margin-top: 1.5em;
+	}
+
+	.await__title br {
+		display: none;
+	}
+
+	.await__p {
+		margin-top: 1em;
+		font-size: 18px;
+	}
 }
 
 @media(max-width: 850px) {
@@ -611,14 +624,26 @@ h2 {
 		font-size: 38px;
 	}
 
-	.about-us .page-p,
+	.about-us br {
+		display: none;
+	}
+
+	.about-us .page-p {
+		font-size: 18px;
+	}
+
 	.page-p {
 		font-size: 16px;
 	}
 
+	.about-us .page-p:not(:first-child) {
+		margin-top: 0;
+	}
+
 	.main-video {
 		width: 97%;
-		height: 200px;
+		height: 390px;
+		margin-top: 2em;
 	}
 
 	.awaits .col-4:not(:first-child) .awaits__await{
@@ -631,11 +656,7 @@ h2 {
 
 	.await__title {
 		margin-top: 1em;
-		font-size: 16px;
-	}
-
-	.await__p {
-		margin-top: 1em;
+		/* font-size: 16px; */
 	}
 
 	.new__register-span {
@@ -669,40 +690,47 @@ h2 {
 		font-size: 42px;
 	}
 
-	.about-us br {
-		display: none;
-	}
-
-	.about-us .page-p:not(:first-child) {
-		margin-top: 0;
-	}
-
 	.main-video {
 		width: 100%;
 		height: 393px;
-		margin-top: 2em;
 	}
 
 	.awaits {
 		padding-bottom: 10px;
 	}
+
+	.awaits__await-wrapper .awaits__await {
+		margin-top: 1.5rem;
+	}
+
+	.new__button {
+		letter-spacing: normal;
+	}
 }
 
 @media(max-width: 576px) {
+	.section {
+		padding: 30px 0;
+	}
+	
 	.section-title {
 		font-size: 30px;
+	}
+
+	.about-us .page-p {
+		font-size: 16px;
 	}
 
 	.main-video {
 		height: 18em;
 	}
 
-	.awaits .awaits__await-wrapper:not(:nth-child(2)) .await__title br {
-		display: none;
+	.await__title {
+		font-size: 18px;
 	}
 
-	.awaits__await-wrapper:not(:first-child) .awaits__await {
-		margin-top: 1.5em;
+	.await__img-wrapper {
+		height: 300px;
 	}
 
 	.mai-full-photo img {
@@ -715,12 +743,16 @@ h2 {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
+
+	.awaits__footer {
+		font-size: 14px;
+	}
 }
 
 @media(max-width: 426px) {
-	.section {
+	/* .section {
 		padding: 40px 0 30px;
-	}
+	} */
 
 	.header-section {
 		padding: 25px 0 30px;
@@ -737,6 +769,10 @@ h2 {
 
 	.awaits {
 		padding-bottom: 1px;
+	}
+
+	.awaits .section-title {
+		margin-bottom: 0.5rem;
 	}
 
 	.await__img-wrapper {
