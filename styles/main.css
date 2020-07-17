@@ -536,3 +536,21 @@ h2 {
 		padding-bottom: 10px;
 	}
 }
+
+@media(max-width: 576px) {
+	.section-title {
+		font-size: 30px;
+	}
+
+	.awaits .awaits__await-wrapper:not(:nth-child(2)) .await__title br {
+		display: none;
+	}
+
+	.awaits__await-wrapper:not(:first-child) .awaits__await {
+		margin-top: 1.5em;
+	}
+
+	.mai-full-photo img {
+		width: 96%;
+	}
+}
