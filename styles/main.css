@@ -130,7 +130,9 @@ h2 {
 }
 
 .checkbox3:checked ~ .nav-list {
-	display: block;
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0;
 }
 
 
@@ -557,14 +559,22 @@ h2 {
 		background: #FFF;
 	}
 
+	.nav-scroll-bg {
+		height: 60px!important;
+	}
+
 	.nav-list {
 		position: absolute;
 		top: 59px;
 		left: 0;
-		display: none;
+		display: block;
+		margin-top: -.5em;
+		visibility: hidden;
+		opacity: 0;
 		width: 100%;
 		background: #fff;
 		z-index: 10;
+    transition: all .25s;
 	}
 
 	.nav-list__item {
