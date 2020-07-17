@@ -324,6 +324,29 @@ h2 {
 	background: rgba(0, 0, 0, 0.6);
 }
 
+.carousel-item {
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel-item:first-child {
+	background-image: url(https://intersog.com/wp-content/uploads/2018/06/2018.05.29-How-corporations-and-organizations-leverage-big-data-to-drive-profits-to-grow-to-engage-customers-etc.jpg);
+}
+
+.carousel-item:nth-child(2) {
+	background-image: url(https://api.spid.center/storage/post/3895/rss_picture-2c88abb6d45df0c58c58ed16c1d513df.jpg);
+}
+
+.carousel-item:last-child {
+	background-image: url(https://uchebnik.mos.ru/system_2/game_apps/icons/000/185/032/original/kod_tekst_raznotsvetnyj_140555_2560x1600.jpg);
+}
+
+.carousel-item.active {
+	/* display: flex;
+	align-items: center; */
+}
+
 .awaits {
 	padding-bottom: 15px;
 }
