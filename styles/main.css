@@ -542,6 +542,10 @@ h2 {
 		font-size: 30px;
 	}
 
+	.main-video {
+		height: 18em;
+	}
+
 	.awaits .awaits__await-wrapper:not(:nth-child(2)) .await__title br {
 		display: none;
 	}
@@ -554,3 +558,46 @@ h2 {
 		width: 96%;
 	}
 }
+
+@media(max-width: 575px) {
+	div[class^="container"] {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media(max-width: 426px) {
+	.section {
+		padding: 40px 0 30px;
+	}
+
+	.header-section {
+		padding: 25px 0 30px;
+	}
+	
+	.main-title {
+    font-size: 37px;
+		margin-top: 0.5em;
+	}
+
+	.main-video {
+		height: 14em;
+	}
+
+	.awaits {
+		padding-bottom: 1px;
+	}
+
+	.await__img-wrapper {
+		height: auto;
+	}
+
+	.MAI_contacts {
+		max-width: 100%;
+	}
+}
+
+
+
+
+
