@@ -217,7 +217,7 @@ h2 {
 	/* z-index: 1; */
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 	;
 }
 
@@ -679,6 +679,10 @@ h2 {
 
 	.section-title {
 		margin-bottom: 20px;
+	}
+
+	.header-section__shadow {
+		background-color: rgba(0, 0, 0, 0.7);
 	}
 
 	.main-title-wrapper {
