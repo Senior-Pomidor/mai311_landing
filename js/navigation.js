@@ -3,9 +3,15 @@ $(document).ready(function () {
 	$("#menu").on("click", "a", function (event) {
 		event.preventDefault();
 		let id = $(this).attr('href'),
-			top = $(id).offset().top;
+			top = $(id).offset().top,
+			coord = top - 15;
+			
+		if($(window).width() <= 851) {
+			coord = top-60
+		}
+
 		$('body,html').animate({
-			scrollTop: top - 15
+			scrollTop: coord
 		}, 500);
 	});
 });
