@@ -330,21 +330,29 @@ h2 {
 	background-position: center;
 }
 
-.carousel-item:first-child {
+.what-to-learn .carousel-item:first-child {
 	background-image: url(https://intersog.com/wp-content/uploads/2018/06/2018.05.29-How-corporations-and-organizations-leverage-big-data-to-drive-profits-to-grow-to-engage-customers-etc.jpg);
 }
 
-.carousel-item:nth-child(2) {
+.what-to-learn .carousel-item:nth-child(2) {
 	background-image: url(https://api.spid.center/storage/post/3895/rss_picture-2c88abb6d45df0c58c58ed16c1d513df.jpg);
 }
 
-.carousel-item:last-child {
+.what-to-learn .carousel-item:last-child {
 	background-image: url(https://uchebnik.mos.ru/system_2/game_apps/icons/000/185/032/original/kod_tekst_raznotsvetnyj_140555_2560x1600.jpg);
 }
 
 .carousel-item.active {
 	/* display: flex;
 	align-items: center; */
+}
+
+.carousel-control-next-icon {
+	width: 100px;
+	height: 100px;
+	background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" class="bi bi-arrow-right" fill="red" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/></svg>');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .awaits {
