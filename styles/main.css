@@ -53,7 +53,8 @@ h2 {
 	border: 0;
 }
 
-.margin-bottom--none {
+.checkbox3__label {
+	display: none;
 	margin-bottom: 0;
 }
 
@@ -546,6 +547,10 @@ h2 {
 	.header-logo__img {
 		/* height: 60px; */
 		padding: 5px;
+	}
+
+	.checkbox3__label {
+		display: block;
 	}
 
 	.nav-container--fixed {

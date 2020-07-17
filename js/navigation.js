@@ -45,3 +45,7 @@ $(document).ready(function() {
 		}
 	});
 });
+
+$(".nav-list__link").on("click", function(evt) {
+	$("#checkbox3").click()
+})
