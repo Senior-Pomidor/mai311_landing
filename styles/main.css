@@ -732,7 +732,7 @@ h2 {
 	}
 
 	.main-video {
-		height: 14em;
+		height: 13em;
 	}
 
 	.awaits {
@@ -748,6 +748,17 @@ h2 {
 	}
 }
 
+@media(max-width: 375px) {
+	.main-video {
+		height: 12em;
+	}
+}
+
+@media(max-width: 353px) {
+	.main-video {
+		height: 10.1em;
+	}
+}
 
 
 
