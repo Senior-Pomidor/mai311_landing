@@ -342,9 +342,21 @@ h2 {
 	background-image: url(https://uchebnik.mos.ru/system_2/game_apps/icons/000/185/032/original/kod_tekst_raznotsvetnyj_140555_2560x1600.jpg);
 }
 
+.carousel-item {
+	
+}
+
 .carousel-item.active {
-	/* display: flex;
-	align-items: center; */
+
+}
+
+.carousel-caption {
+	top: 50%;
+	min-width: 300px;
+	width: 60%;
+	height: 300px;
+	margin: -150px auto 0;
+	background: rgba(255, 255, 255, 0.9);
 }
 
 .carousel-control-prev,
