@@ -357,6 +357,8 @@ h2 {
 	height: 300px;
 	margin: -150px auto 0;
 	background: rgba(255, 255, 255, 0.9);
+
+	color: #000;
 }
 
 .carousel-control-prev,
