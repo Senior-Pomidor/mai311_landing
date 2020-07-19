@@ -517,6 +517,7 @@ h2 {
 
 .slider-perspective__img {
 	width: 32%;
+	/* height: 240px; */
 }
 
 .perspective .carousel-control-prev {
