@@ -503,6 +503,10 @@ h2 {
 	padding: 0 20px;
 }
 
+.slider-perspective .carousel-indicators {
+	bottom: -5px;
+}
+
 .item__img-wrapper {
 	display: flex;
 	justify-content: space-around;
@@ -920,6 +924,15 @@ h2 {
 		font-size: 14px;
 	}
 
+	.slider-perspective .carousel-indicators {
+		bottom: -5px;
+	}
+
+	.slider-perspective .carousel-indicators li {
+		height: 2px;
+		width: 20px;
+	}
+
 	.slider-perspective__img {
 		width: 100%;
 	}
@@ -1005,12 +1018,16 @@ h2 {
 		padding: 0;
 	}
 
+	.slider-perspective .carousel-indicators {
+		opacity: 0.7;
+	}
+
 	.slider-perspective .carousel-control-prev,
 	.slider-perspective .carousel-control-next,
 	.slider-perspective .carousel-control-prev:hover,
 	.slider-perspective .carousel-control-next:hover {
 		width: 50px;
-		opacity: 0.3;
+		opacity: 0.2;
 	}
 
 	.slider-perspective .carousel-control-prev {
