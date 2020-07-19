@@ -325,25 +325,30 @@ h2 {
 }
 
 .carousel-item {
-	height: 400px;
+	height: 340px;
 	background-size: cover;
 	background-position: center;
 }
 
+.carousel-item__shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+}
+
 .what-to-learn .carousel-item:first-child {
-	background-image: url(https://intersog.com/wp-content/uploads/2018/06/2018.05.29-How-corporations-and-organizations-leverage-big-data-to-drive-profits-to-grow-to-engage-customers-etc.jpg);
+	background-image: url(https://www.einfochips.com/blog/wp-content/uploads/2019/03/addressing-challenges-associated-with-imbalanced-datasets-in-machine-learning-featured.jpg);
 }
 
 .what-to-learn .carousel-item:nth-child(2) {
-	background-image: url(https://api.spid.center/storage/post/3895/rss_picture-2c88abb6d45df0c58c58ed16c1d513df.jpg);
+	background-image: url(../assets/img/bg_big-data.jpg);
 }
 
 .what-to-learn .carousel-item:last-child {
 	background-image: url(https://uchebnik.mos.ru/system_2/game_apps/icons/000/185/032/original/kod_tekst_raznotsvetnyj_140555_2560x1600.jpg);
-}
-
-.carousel-item {
-	
 }
 
 .carousel-item.active {
@@ -351,14 +356,32 @@ h2 {
 }
 
 .carousel-caption {
-	top: 50%;
-	min-width: 300px;
-	width: 60%;
-	height: 300px;
-	margin: -150px auto 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	min-width: 290px;
+	width: 65%;
+	/* height: 80%; */
+	height: 250px;
+	margin: auto;
+	padding: 2em;
 	background: rgba(255, 255, 255, 0.9);
 
 	color: #000;
+}
+
+.slide__title {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.slide__desc {
+	margin-top: 0.5rem;
+	margin-bottom: 0;
 }
 
 .carousel-control-prev,
