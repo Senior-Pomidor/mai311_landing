@@ -14,7 +14,7 @@ $(document).ready(function () {
 		// console.log(coord)
 
 		$('body,html').animate({
-			scrollTop: coord + 10
+			scrollTop: coord + 100
 		}, 500);
 	});
 });
