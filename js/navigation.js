@@ -1,6 +1,9 @@
 // плавный скролл
 $(document).ready(function () {
-	$("#menu").on("click", "a", function (event) {
+	let links = $.merge($(".address"), $("#menu"))
+	// console.log(links)
+
+	links.on("click", "a", function (event) {
 		event.preventDefault();
 		let id = $(this).attr('href'),
 			top = $(id).offset().top,
