@@ -10,8 +10,11 @@ $(document).ready(function () {
 			coord = top-60
 		}
 
+		// console.log($(window).width())
+		// console.log(coord)
+
 		$('body,html').animate({
-			scrollTop: coord
+			scrollTop: coord + 1
 		}, 500);
 	});
 });
