@@ -326,6 +326,7 @@ h2 {
 
 .what-to-learn {
 	/* padding-bottom: 55px; */
+	background-color: #ebeef0;
 }
 
 .what-to-learn .carousel-item {
@@ -705,6 +706,10 @@ h2 {
 		border-bottom: none;
 	}
 
+	.slide__title {
+		font-size: 1.5em;
+	}
+
 	.awaits__await-wrapper:not(:first-child) .awaits__await {
 		margin-top: 1.5em;
 	}
@@ -837,6 +842,18 @@ h2 {
 		height: 18em;
 	}
 
+	.about-us__container {
+		max-width: 100%;
+	}
+
+	.carousel-caption {
+		padding: 1em;
+	}
+
+	.slide__title {
+		font-size: 1.3em;
+	}
+
 	.await__title {
 		font-size: 18px;
 	}
@@ -854,6 +871,10 @@ h2 {
 	div[class^="container"] {
 		padding-right: 15px;
 		padding-left: 15px;
+	}
+
+	.about-us__container {
+		padding: 0!important;
 	}
 
 	.awaits__footer {
@@ -879,6 +900,34 @@ h2 {
 		height: 13em;
 	}
 
+	.carousel-caption {
+		width: 94%;
+	}
+
+	.what-to-learn .carousel-control-prev,
+	.what-to-learn .carousel-control-next {
+		top: 0;
+		right: 0;
+		width: 50px;
+		height: 100%;
+		padding-right: 12px;
+		padding-left: 10px;
+		margin-top: 0;
+		background: transparent;
+		opacity: 0.5;
+	}
+
+	.what-to-learn .carousel-control-prev-icon {
+		padding-right: 10px;
+		padding-left: 12px;
+	}
+
+	.what-to-learn .carousel-control-prev:hover,
+	.what-to-learn .carousel-control-next:hover {
+		background: transparent;
+	}
+	
+
 	.awaits {
 		padding-bottom: 1px;
 	}
@@ -899,6 +948,14 @@ h2 {
 @media(max-width: 375px) {
 	.main-video {
 		height: 12em;
+	}
+
+	.slide__title {
+		font-size: 1.23em;
+	}
+
+	.carousel-caption {
+		height: 270px;
 	}
 }
 
