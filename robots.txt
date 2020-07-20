@@ -3,4 +3,4 @@ Host:
 Host: 311mai.ru/
 Disallow: /js
 Disallow: /cgi-bin
-#Sitemap: http://311mai.ru/
+Sitemap: http://311mai.ru/sitemap.xml
