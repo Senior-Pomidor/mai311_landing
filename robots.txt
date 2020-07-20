@@ -1,0 +1,6 @@
+User-agent: *
+Host: 
+Host: 311mai.ru/
+Disallow: /js
+Disallow: /cgi-bin
+#Sitemap: http://311mai.ru/
