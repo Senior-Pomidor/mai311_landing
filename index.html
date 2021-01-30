@@ -35,12 +35,13 @@
 				<input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
     
         <label for="checkbox3" class="checkbox3__label">
-            <div class="hamburger hamburger3">
+						<span class="hamburger hamburger3" style="display: block;">
+							<!-- в валидаторе указано что нельзя использовать div внутри label -->
                 <span class="bar bar1"></span>
                 <span class="bar bar2"></span>
                 <span class="bar bar3"></span>
                 <span class="bar bar4"></span>
-            </div>
+            </span>
         </label>
 
 				<ul class="main-nav__list nav-list">
@@ -79,7 +80,7 @@
 					</div>
 
 					<div class="col-lg-8 col-md-12 main-title-wrapper">
-						<h1 class="main-title">Прикладная информатика</h1>
+						<h2 class="main-title" style="font-weight: 500;">Прикладная информатика</h2>
 					</div>
 				</div>
 
@@ -140,7 +141,7 @@
 						</p>
 					</div>
 					<div class="col-lg-6 col-md-12 main-video-wrapper">
-						<iframe class="main-video" src="https://www.youtube.com/embed/SR2DQFGbANE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe class="main-video" src="https://www.youtube.com/embed/SR2DQFGbANE" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
 					</div>
 				</div>
 			</div>
@@ -240,7 +241,7 @@
 							<div class="await__desc">
 								<h4 class="await__title">
 									Заведующий кафедрой,<br>
-									<nobr>д.ф.-м.н. Вестяк&nbsp;В.А.</nobr>
+									<span style="white-space: nowrap;">д.ф.-м.н. Вестяк&nbsp;В.А.</span>
 								</h4>
 								<p class="page-p await__p ta-center">
 									Заведующий открыт для студентов! <br>
@@ -462,13 +463,14 @@
 		</section>
 
 		<section class="map" id="map">
-			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3892f7311f8de901fe15437a57db01bebdb50ab769c678c220ce94ac8eb39cd6&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+			<h2  style="display: none;">МАИ на карте</h2>
+			<script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3892f7311f8de901fe15437a57db01bebdb50ab769c678c220ce94ac8eb39cd6&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
 		</section>
 	</main>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/navigation.js"></script>
+	<script src="js/navigation.js"></script>
 </body>
 </html>
